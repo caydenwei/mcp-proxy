@@ -10,7 +10,7 @@ import uvicorn
 from mcp import types
 from mcp.client.session import ClientSession
 from mcp.client.sse import sse_client
-from mcp.client.streamableHttp import streamablehttp_client
+from mcp.client.streamable_http import streamablehttp_client
 from mcp.server import Server
 
 from mcp_proxy.mcp_server import create_starlette_app
